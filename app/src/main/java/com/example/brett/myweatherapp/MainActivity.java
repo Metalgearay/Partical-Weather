@@ -41,7 +41,7 @@ public class MainActivity extends ActionBarActivity {
 
                             @Override
                             public Integer callApi(ParticleCloud cloud) throws ParticleCloudException, IOException {
-                                cloud.logIn("asmcollege12@hotmail.com", "s7775643");
+                                cloud.logIn("Backooff", "yourownpasswd");
                                 cloud.getDevices();
                                 mDevice = cloud.getDevice("210021000747343337373738");
                                 Integer obj;
