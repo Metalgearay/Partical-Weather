@@ -43,7 +43,7 @@ public class MainActivity extends ActionBarActivity {
                             public Integer callApi(ParticleCloud cloud) throws ParticleCloudException, IOException {
                                 cloud.logIn("Backooff", "yourownpasswd");
                                 cloud.getDevices();
-                                mDevice = cloud.getDevice("210021000747343337373738");
+                                mDevice = cloud.getDevice("Your own App ID");
                                 Integer obj;
                                 try {
                                     obj = mDevice.getIntVariable("temp");
